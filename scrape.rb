@@ -20,7 +20,7 @@ end
 
 def send_includes_mail
   Mail.deliver do
-    to 'aidan.mooore@moomumedia.com'
+    to 'aidan.moore@moomumedia.com'
     from 'tracy.musung@moomumedia.com'
     subject 'Tag Manager found'
     body 'Seems to still be on there'
@@ -29,7 +29,7 @@ end
 
 def send_excludes_mail
   Mail.deliver do
-    to 'aidan.mooore@moomumedia.com'
+    to 'aidan.moore@moomumedia.com'
     from 'tracy.musung@moomumedia.com'
     subject 'Tag Manager not found'
     body 'Go check www.capitalfinance.com.au for Tag Manager'
