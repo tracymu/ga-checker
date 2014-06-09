@@ -1,5 +1,5 @@
 require 'mail'
-require 'Nokogiri'
+require 'nokogiri'
 require 'open-uri'
 
 def scrape_page(url)
