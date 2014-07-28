@@ -60,7 +60,7 @@ body = body.to_s
 
 if body.include? "tagmanager"
    puts "includes"
-   # send_includes_mail
+   send_includes_mail
 else
   # puts "doesn't include"
   send_excludes_mail
